@@ -1,0 +1,15 @@
+    [package]
+    name = "InsurancePolicyAutomation"
+    version = "1.0.0"
+    authors = []
+
+    [addresses]
+    MyModule ='0x0ca9ff18fce2910e1b055a9330b5fb1f6e87e6018d08dbd3edd65a0dc26aea55'
+    [dev-addresses]
+
+    [dependencies.AptosFramework]
+    git = "https://github.com/aptos-labs/aptos-core.git"
+    rev = "mainnet"
+    subdir = "aptos-move/framework/aptos-framework"
+
+    [dev-dependencies]
